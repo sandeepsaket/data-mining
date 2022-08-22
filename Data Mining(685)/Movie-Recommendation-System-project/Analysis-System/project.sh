@@ -1,0 +1,21 @@
+#!/bin/bash
+bash movie-revenue-ranking.sh;
+bash genre-collection-rating.sh;
+bash year-genre-collection.sh;
+bash language-movie.sh;
+bash popular-actor-director.sh;
+bash genre-ranking.sh;
+bash actor-director-movie.sh;
+bash actor-director-genre.sh;
+bash collection-india-worldwide.sh;
+bash most-successful.sh;
+bash movie-ranking.sh;
+bash crew-ranking.sh;
+bash revenue-budget-ratio.sh;
+bash month-collection.sh;
+bash yearwise-highest.sh;
+bash top20-collection.sh;
+bash debut-movie-year.sh;
+bash verdict.sh;
+bash best-teams.sh;
+bash footfalls.sh

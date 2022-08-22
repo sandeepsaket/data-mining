@@ -1,0 +1,3607 @@
+ERROR:root:Movie id 12's page not found.
+ERROR:root:Movie id 12's page not found.
+ERROR:root:Movie id: 244
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id 358's page not found.
+ERROR:root:Movie id 446's page not found.
+ERROR:root:Movie id: 485
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 3, in <module>
+    page = requests.get(url.format(movie_id))
+  File "/usr/lib/python3.9/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:root:Movie id: 577
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 587
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id 783's page not found.
+ERROR:root:Movie id 795's page not found.
+ERROR:root:Movie id 857's page not found.
+ERROR:root:Movie id: 987
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id 1042's page not found.
+ERROR:root:Movie id: 2237
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 3, in <module>
+    page = requests.get(url.format(movie_id))
+  File "/usr/lib/python3.9/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:root:Movie id 2724's page not found.
+ERROR:root:Movie id 2749's page not found.
+ERROR:root:Movie id 2893's page not found.
+ERROR:root:Movie id 2967's page not found.
+ERROR:root:Movie id 3024's page not found.
+ERROR:root:Movie id: 3103
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id 3184's page not found.
+ERROR:root:Movie id: 3316
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3333
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id 3356's page not found.
+ERROR:root:Movie id 3504's page not found.
+ERROR:root:Movie id 3601's page not found.
+ERROR:root:Movie id 3783's page not found.
+ERROR:root:Movie id 3784's page not found.
+ERROR:root:Movie id: 3832
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3833
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3834
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3835
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3836
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3837
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3838
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3839
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3840
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3841
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3842
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3843
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3844
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3845
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3846
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3847
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3848
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3849
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3850
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3851
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3852
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3853
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3854
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3855
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3856
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3857
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3858
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3859
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3860
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3861
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3862
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3863
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3864
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3865
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3866
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3874
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3875
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3876
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3877
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3878
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3886
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id 3887's page not found.
+ERROR:root:Movie id: 3888
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3889
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3890
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3891
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3892
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3893
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3894
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3895
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3896
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3897
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3898
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3899
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3900
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3901
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3902
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3903
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3904
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3905
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3906
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3907
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3908
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3909
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3910
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3911
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3912
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3913
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3914
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3915
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3916
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3917
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3923
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3924
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3925
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3926
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3927
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3928
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3929
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3930
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3931
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3932
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3933
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3934
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3935
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3936
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3937
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3938
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3939
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3940
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3944
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3945
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3946
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3947
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3948
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3949
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3950
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3951
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3952
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3953
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3954
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3955
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3962
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3963
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3964
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 3965
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id 3966's page not found.
+ERROR:root:Movie id 3969's page not found.
+ERROR:root:Movie id 3970's page not found.
+ERROR:root:Movie id 3971's page not found.
+ERROR:root:Movie id 3972's page not found.
+ERROR:root:Movie id 3973's page not found.
+ERROR:root:Movie id 3974's page not found.
+ERROR:root:Movie id 3975's page not found.
+ERROR:root:Movie id 3976's page not found.
+ERROR:root:Movie id 3977's page not found.
+ERROR:root:Movie id 3978's page not found.
+ERROR:root:Movie id 3979's page not found.
+ERROR:root:Movie id 3980's page not found.
+ERROR:root:Movie id 3981's page not found.
+ERROR:root:Movie id 3982's page not found.
+ERROR:root:Movie id 3983's page not found.
+ERROR:root:Movie id 3984's page not found.
+ERROR:root:Movie id 3985's page not found.
+ERROR:root:Movie id 3986's page not found.
+ERROR:root:Movie id 3987's page not found.
+ERROR:root:Movie id 3988's page not found.
+ERROR:root:Movie id 3989's page not found.
+ERROR:root:Movie id 3990's page not found.
+ERROR:root:Movie id 3991's page not found.
+ERROR:root:Movie id 3992's page not found.
+ERROR:root:Movie id 3993's page not found.
+ERROR:root:Movie id 3994's page not found.
+ERROR:root:Movie id 3995's page not found.
+ERROR:root:Movie id 3996's page not found.
+ERROR:root:Movie id 3997's page not found.
+ERROR:root:Movie id 3998's page not found.
+ERROR:root:Movie id 3999's page not found.
+ERROR:root:Movie id 4000's page not found.
+ERROR:root:Movie id 4001's page not found.
+ERROR:root:Movie id 4002's page not found.
+ERROR:root:Movie id 4003's page not found.
+ERROR:root:Movie id 4004's page not found.
+ERROR:root:Movie id 4005's page not found.
+ERROR:root:Movie id 4006's page not found.
+ERROR:root:Movie id 4007's page not found.
+ERROR:root:Movie id 4008's page not found.
+ERROR:root:Movie id 4009's page not found.
+ERROR:root:Movie id 4010's page not found.
+ERROR:root:Movie id 4011's page not found.
+ERROR:root:Movie id 4012's page not found.
+ERROR:root:Movie id 4013's page not found.
+ERROR:root:Movie id 4014's page not found.
+ERROR:root:Movie id 4015's page not found.
+ERROR:root:Movie id 4016's page not found.
+ERROR:root:Movie id 4017's page not found.
+ERROR:root:Movie id 4018's page not found.
+ERROR:root:Movie id 4019's page not found.
+ERROR:root:Movie id 4020's page not found.
+ERROR:root:Movie id 4021's page not found.
+ERROR:root:Movie id 4022's page not found.
+ERROR:root:Movie id 4023's page not found.
+ERROR:root:Movie id 4024's page not found.
+ERROR:root:Movie id 4025's page not found.
+ERROR:root:Movie id 4026's page not found.
+ERROR:root:Movie id 4027's page not found.
+ERROR:root:Movie id 4028's page not found.
+ERROR:root:Movie id 4029's page not found.
+ERROR:root:Movie id 4030's page not found.
+ERROR:root:Movie id 4031's page not found.
+ERROR:root:Movie id 4032's page not found.
+ERROR:root:Movie id 4033's page not found.
+ERROR:root:Movie id 4034's page not found.
+ERROR:root:Movie id 4035's page not found.
+ERROR:root:Movie id 4036's page not found.
+ERROR:root:Movie id 4037's page not found.
+ERROR:root:Movie id 4038's page not found.
+ERROR:root:Movie id 4039's page not found.
+ERROR:root:Movie id 4040's page not found.
+ERROR:root:Movie id 4041's page not found.
+ERROR:root:Movie id 4042's page not found.
+ERROR:root:Movie id 4043's page not found.
+ERROR:root:Movie id 4044's page not found.
+ERROR:root:Movie id 4045's page not found.
+ERROR:root:Movie id 4046's page not found.
+ERROR:root:Movie id 4047's page not found.
+ERROR:root:Movie id 4048's page not found.
+ERROR:root:Movie id 4049's page not found.
+ERROR:root:Movie id 4050's page not found.
+ERROR:root:Movie id 4051's page not found.
+ERROR:root:Movie id 4052's page not found.
+ERROR:root:Movie id 4053's page not found.
+ERROR:root:Movie id 4054's page not found.
+ERROR:root:Movie id 4055's page not found.
+ERROR:root:Movie id 4056's page not found.
+ERROR:root:Movie id 4057's page not found.
+ERROR:root:Movie id 4058's page not found.
+ERROR:root:Movie id 4059's page not found.
+ERROR:root:Movie id 4060's page not found.
+ERROR:root:Movie id 4061's page not found.
+ERROR:root:Movie id 4062's page not found.
+ERROR:root:Movie id 4063's page not found.
+ERROR:root:Movie id 4064's page not found.
+ERROR:root:Movie id 4065's page not found.
+ERROR:root:Movie id 4066's page not found.
+ERROR:root:Movie id 4067's page not found.
+ERROR:root:Movie id 4068's page not found.
+ERROR:root:Movie id 4069's page not found.
+ERROR:root:Movie id 4070's page not found.
+ERROR:root:Movie id 4071's page not found.
+ERROR:root:Movie id 4072's page not found.
+ERROR:root:Movie id 4073's page not found.
+ERROR:root:Movie id 4074's page not found.
+ERROR:root:Movie id 4075's page not found.
+ERROR:root:Movie id 4076's page not found.
+ERROR:root:Movie id 4077's page not found.
+ERROR:root:Movie id 4078's page not found.
+ERROR:root:Movie id 4079's page not found.
+ERROR:root:Movie id 4080's page not found.
+ERROR:root:Movie id 4081's page not found.
+ERROR:root:Movie id 4082's page not found.
+ERROR:root:Movie id 4083's page not found.
+ERROR:root:Movie id 4084's page not found.
+ERROR:root:Movie id 4085's page not found.
+ERROR:root:Movie id 4086's page not found.
+ERROR:root:Movie id 4087's page not found.
+ERROR:root:Movie id 4088's page not found.
+ERROR:root:Movie id 4089's page not found.
+ERROR:root:Movie id 4090's page not found.
+ERROR:root:Movie id 4091's page not found.
+ERROR:root:Movie id 4092's page not found.
+ERROR:root:Movie id 4093's page not found.
+ERROR:root:Movie id 4094's page not found.
+ERROR:root:Movie id 4095's page not found.
+ERROR:root:Movie id 4096's page not found.
+ERROR:root:Movie id 4097's page not found.
+ERROR:root:Movie id 4098's page not found.
+ERROR:root:Movie id 4099's page not found.
+ERROR:root:Movie id 4100's page not found.
+ERROR:root:Movie id 4101's page not found.
+ERROR:root:Movie id 4102's page not found.
+ERROR:root:Movie id 4103's page not found.
+ERROR:root:Movie id 4104's page not found.
+ERROR:root:Movie id 4105's page not found.
+ERROR:root:Movie id 4106's page not found.
+ERROR:root:Movie id 4107's page not found.
+ERROR:root:Movie id 4108's page not found.
+ERROR:root:Movie id 4109's page not found.
+ERROR:root:Movie id 4110's page not found.
+ERROR:root:Movie id 4111's page not found.
+ERROR:root:Movie id 4112's page not found.
+ERROR:root:Movie id 4113's page not found.
+ERROR:root:Movie id 4114's page not found.
+ERROR:root:Movie id 4115's page not found.
+ERROR:root:Movie id 4116's page not found.
+ERROR:root:Movie id 4117's page not found.
+ERROR:root:Movie id 4118's page not found.
+ERROR:root:Movie id 4119's page not found.
+ERROR:root:Movie id 4120's page not found.
+ERROR:root:Movie id 4121's page not found.
+ERROR:root:Movie id 4122's page not found.
+ERROR:root:Movie id 4123's page not found.
+ERROR:root:Movie id 4124's page not found.
+ERROR:root:Movie id 4125's page not found.
+ERROR:root:Movie id 4126's page not found.
+ERROR:root:Movie id 4127's page not found.
+ERROR:root:Movie id 4128's page not found.
+ERROR:root:Movie id 4129's page not found.
+ERROR:root:Movie id 4130's page not found.
+ERROR:root:Movie id 4131's page not found.
+ERROR:root:Movie id 4132's page not found.
+ERROR:root:Movie id 4133's page not found.
+ERROR:root:Movie id 4134's page not found.
+ERROR:root:Movie id 4135's page not found.
+ERROR:root:Movie id 4136's page not found.
+ERROR:root:Movie id 4137's page not found.
+ERROR:root:Movie id 4138's page not found.
+ERROR:root:Movie id 4139's page not found.
+ERROR:root:Movie id 4140's page not found.
+ERROR:root:Movie id 4141's page not found.
+ERROR:root:Movie id 4142's page not found.
+ERROR:root:Movie id 4143's page not found.
+ERROR:root:Movie id 4144's page not found.
+ERROR:root:Movie id 4145's page not found.
+ERROR:root:Movie id 4146's page not found.
+ERROR:root:Movie id 4147's page not found.
+ERROR:root:Movie id 4148's page not found.
+ERROR:root:Movie id 4149's page not found.
+ERROR:root:Movie id 4150's page not found.
+ERROR:root:Movie id 4151's page not found.
+ERROR:root:Movie id 4152's page not found.
+ERROR:root:Movie id 4153's page not found.
+ERROR:root:Movie id 4154's page not found.
+ERROR:root:Movie id 4155's page not found.
+ERROR:root:Movie id 4156's page not found.
+ERROR:root:Movie id 4157's page not found.
+ERROR:root:Movie id 4158's page not found.
+ERROR:root:Movie id 4159's page not found.
+ERROR:root:Movie id 4160's page not found.
+ERROR:root:Movie id 4161's page not found.
+ERROR:root:Movie id 4162's page not found.
+ERROR:root:Movie id 4163's page not found.
+ERROR:root:Movie id 4164's page not found.
+ERROR:root:Movie id 4165's page not found.
+ERROR:root:Movie id 4166's page not found.
+ERROR:root:Movie id 4167's page not found.
+ERROR:root:Movie id 4168's page not found.
+ERROR:root:Movie id 4169's page not found.
+ERROR:root:Movie id 4170's page not found.
+ERROR:root:Movie id 4171's page not found.
+ERROR:root:Movie id 4172's page not found.
+ERROR:root:Movie id 4173's page not found.
+ERROR:root:Movie id 4174's page not found.
+ERROR:root:Movie id 4175's page not found.
+ERROR:root:Movie id 4176's page not found.
+ERROR:root:Movie id 4177's page not found.
+ERROR:root:Movie id 4178's page not found.
+ERROR:root:Movie id 4179's page not found.
+ERROR:root:Movie id 4180's page not found.
+ERROR:root:Movie id 4181's page not found.
+ERROR:root:Movie id 4182's page not found.
+ERROR:root:Movie id 4183's page not found.
+ERROR:root:Movie id 4184's page not found.
+ERROR:root:Movie id 4185's page not found.
+ERROR:root:Movie id 4186's page not found.
+ERROR:root:Movie id 4187's page not found.
+ERROR:root:Movie id 4188's page not found.
+ERROR:root:Movie id 4189's page not found.
+ERROR:root:Movie id 4190's page not found.
+ERROR:root:Movie id 4191's page not found.
+ERROR:root:Movie id 4192's page not found.
+ERROR:root:Movie id 4193's page not found.
+ERROR:root:Movie id 4194's page not found.
+ERROR:root:Movie id 4195's page not found.
+ERROR:root:Movie id 4196's page not found.
+ERROR:root:Movie id 4197's page not found.
+ERROR:root:Movie id 4198's page not found.
+ERROR:root:Movie id 4199's page not found.
+ERROR:root:Movie id 4200's page not found.
+ERROR:root:Movie id 4201's page not found.
+ERROR:root:Movie id 4202's page not found.
+ERROR:root:Movie id 4203's page not found.
+ERROR:root:Movie id 4204's page not found.
+ERROR:root:Movie id 4205's page not found.
+ERROR:root:Movie id 4206's page not found.
+ERROR:root:Movie id 4207's page not found.
+ERROR:root:Movie id 4208's page not found.
+ERROR:root:Movie id 4209's page not found.
+ERROR:root:Movie id 4210's page not found.
+ERROR:root:Movie id 4211's page not found.
+ERROR:root:Movie id 4212's page not found.
+ERROR:root:Movie id 4213's page not found.
+ERROR:root:Movie id 4214's page not found.
+ERROR:root:Movie id 4215's page not found.
+ERROR:root:Movie id 4216's page not found.
+ERROR:root:Movie id 4217's page not found.
+ERROR:root:Movie id 4218's page not found.
+ERROR:root:Movie id 4219's page not found.
+ERROR:root:Movie id 4220's page not found.
+ERROR:root:Movie id 4221's page not found.
+ERROR:root:Movie id 4222's page not found.
+ERROR:root:Movie id 4223's page not found.
+ERROR:root:Movie id 4224's page not found.
+ERROR:root:Movie id 4225's page not found.
+ERROR:root:Movie id 4226's page not found.
+ERROR:root:Movie id 4227's page not found.
+ERROR:root:Movie id 4228's page not found.
+ERROR:root:Movie id 4229's page not found.
+ERROR:root:Movie id 4230's page not found.
+ERROR:root:Movie id 4231's page not found.
+ERROR:root:Movie id 4232's page not found.
+ERROR:root:Movie id 4233's page not found.
+ERROR:root:Movie id 4234's page not found.
+ERROR:root:Movie id 4235's page not found.
+ERROR:root:Movie id 4236's page not found.
+ERROR:root:Movie id 4237's page not found.
+ERROR:root:Movie id 4238's page not found.
+ERROR:root:Movie id 4239's page not found.
+ERROR:root:Movie id 4240's page not found.
+ERROR:root:Movie id 4241's page not found.
+ERROR:root:Movie id 4242's page not found.
+ERROR:root:Movie id 4243's page not found.
+ERROR:root:Movie id 4244's page not found.
+ERROR:root:Movie id 4245's page not found.
+ERROR:root:Movie id 4246's page not found.
+ERROR:root:Movie id 4247's page not found.
+ERROR:root:Movie id 4248's page not found.
+ERROR:root:Movie id 4249's page not found.
+ERROR:root:Movie id 4250's page not found.
+ERROR:root:Movie id 4251's page not found.
+ERROR:root:Movie id 4252's page not found.
+ERROR:root:Movie id 4253's page not found.
+ERROR:root:Movie id 4254's page not found.
+ERROR:root:Movie id 4255's page not found.
+ERROR:root:Movie id 4256's page not found.
+ERROR:root:Movie id 4257's page not found.
+ERROR:root:Movie id 4258's page not found.
+ERROR:root:Movie id 4259's page not found.
+ERROR:root:Movie id 4260's page not found.
+ERROR:root:Movie id 4261's page not found.
+ERROR:root:Movie id 4262's page not found.
+ERROR:root:Movie id 4263's page not found.
+ERROR:root:Movie id 4264's page not found.
+ERROR:root:Movie id 4265's page not found.
+ERROR:root:Movie id 4266's page not found.
+ERROR:root:Movie id 4267's page not found.
+ERROR:root:Movie id 4268's page not found.
+ERROR:root:Movie id 4269's page not found.
+ERROR:root:Movie id 4270's page not found.
+ERROR:root:Movie id 4271's page not found.
+ERROR:root:Movie id 4272's page not found.
+ERROR:root:Movie id 4273's page not found.
+ERROR:root:Movie id 4274's page not found.
+ERROR:root:Movie id 4275's page not found.
+ERROR:root:Movie id 4276's page not found.
+ERROR:root:Movie id 4277's page not found.
+ERROR:root:Movie id 4278's page not found.
+ERROR:root:Movie id 4279's page not found.
+ERROR:root:Movie id 4280's page not found.
+ERROR:root:Movie id 4281's page not found.
+ERROR:root:Movie id 4282's page not found.
+ERROR:root:Movie id 4283's page not found.
+ERROR:root:Movie id 4284's page not found.
+ERROR:root:Movie id 4285's page not found.
+ERROR:root:Movie id 4286's page not found.
+ERROR:root:Movie id 4287's page not found.
+ERROR:root:Movie id 4288's page not found.
+ERROR:root:Movie id 4289's page not found.
+ERROR:root:Movie id 4290's page not found.
+ERROR:root:Movie id 4291's page not found.
+ERROR:root:Movie id 4292's page not found.
+ERROR:root:Movie id 4293's page not found.
+ERROR:root:Movie id 4294's page not found.
+ERROR:root:Movie id 4295's page not found.
+ERROR:root:Movie id 4296's page not found.
+ERROR:root:Movie id 4297's page not found.
+ERROR:root:Movie id 4298's page not found.
+ERROR:root:Movie id 4299's page not found.
+ERROR:root:Movie id 4300's page not found.
+ERROR:root:Movie id 4301's page not found.
+ERROR:root:Movie id 4302's page not found.
+ERROR:root:Movie id 4303's page not found.
+ERROR:root:Movie id 4304's page not found.
+ERROR:root:Movie id 4305's page not found.
+ERROR:root:Movie id 4306's page not found.
+ERROR:root:Movie id 4307's page not found.
+ERROR:root:Movie id 4308's page not found.
+ERROR:root:Movie id 4309's page not found.
+ERROR:root:Movie id 4310's page not found.
+ERROR:root:Movie id 4311's page not found.
+ERROR:root:Movie id 4312's page not found.
+ERROR:root:Movie id 4313's page not found.
+ERROR:root:Movie id 4314's page not found.
+ERROR:root:Movie id 4315's page not found.
+ERROR:root:Movie id 4316's page not found.
+ERROR:root:Movie id 4317's page not found.
+ERROR:root:Movie id 4318's page not found.
+ERROR:root:Movie id 4319's page not found.
+ERROR:root:Movie id 4320's page not found.
+ERROR:root:Movie id 4321's page not found.
+ERROR:root:Movie id 4322's page not found.
+ERROR:root:Movie id 4323's page not found.
+ERROR:root:Movie id 4324's page not found.
+ERROR:root:Movie id 4325's page not found.
+ERROR:root:Movie id 4326's page not found.
+ERROR:root:Movie id 4327's page not found.
+ERROR:root:Movie id 4328's page not found.
+ERROR:root:Movie id 4329's page not found.
+ERROR:root:Movie id 4330's page not found.
+ERROR:root:Movie id 4331's page not found.
+ERROR:root:Movie id 4332's page not found.
+ERROR:root:Movie id 4333's page not found.
+ERROR:root:Movie id 4334's page not found.
+ERROR:root:Movie id 4335's page not found.
+ERROR:root:Movie id 4336's page not found.
+ERROR:root:Movie id 4337's page not found.
+ERROR:root:Movie id 4338's page not found.
+ERROR:root:Movie id 4339's page not found.
+ERROR:root:Movie id 4340's page not found.
+ERROR:root:Movie id 4341's page not found.
+ERROR:root:Movie id 4342's page not found.
+ERROR:root:Movie id 4343's page not found.
+ERROR:root:Movie id 4344's page not found.
+ERROR:root:Movie id 4345's page not found.
+ERROR:root:Movie id 4346's page not found.
+ERROR:root:Movie id 4347's page not found.
+ERROR:root:Movie id 4348's page not found.
+ERROR:root:Movie id 4349's page not found.
+ERROR:root:Movie id 4350's page not found.
+ERROR:root:Movie id 4351's page not found.
+ERROR:root:Movie id 4352's page not found.
+ERROR:root:Movie id 4353's page not found.
+ERROR:root:Movie id 4354's page not found.
+ERROR:root:Movie id 4355's page not found.
+ERROR:root:Movie id 4356's page not found.
+ERROR:root:Movie id 4357's page not found.
+ERROR:root:Movie id 4358's page not found.
+ERROR:root:Movie id 4359's page not found.
+ERROR:root:Movie id 4360's page not found.
+ERROR:root:Movie id 4361's page not found.
+ERROR:root:Movie id 4362's page not found.
+ERROR:root:Movie id 4363's page not found.
+ERROR:root:Movie id 4364's page not found.
+ERROR:root:Movie id 4365's page not found.
+ERROR:root:Movie id 4366's page not found.
+ERROR:root:Movie id 4367's page not found.
+ERROR:root:Movie id 4368's page not found.
+ERROR:root:Movie id 4369's page not found.
+ERROR:root:Movie id 4370's page not found.
+ERROR:root:Movie id 4371's page not found.
+ERROR:root:Movie id 4372's page not found.
+ERROR:root:Movie id 4373's page not found.
+ERROR:root:Movie id 4374's page not found.
+ERROR:root:Movie id 4375's page not found.
+ERROR:root:Movie id 4376's page not found.
+ERROR:root:Movie id 4377's page not found.
+ERROR:root:Movie id 4378's page not found.
+ERROR:root:Movie id 4379's page not found.
+ERROR:root:Movie id 4380's page not found.
+ERROR:root:Movie id 4381's page not found.
+ERROR:root:Movie id 4382's page not found.
+ERROR:root:Movie id 4383's page not found.
+ERROR:root:Movie id 4384's page not found.
+ERROR:root:Movie id 4385's page not found.
+ERROR:root:Movie id 4386's page not found.
+ERROR:root:Movie id 4387's page not found.
+ERROR:root:Movie id 4388's page not found.
+ERROR:root:Movie id 4389's page not found.
+ERROR:root:Movie id 4390's page not found.
+ERROR:root:Movie id 4391's page not found.
+ERROR:root:Movie id 4392's page not found.
+ERROR:root:Movie id 4393's page not found.
+ERROR:root:Movie id 4394's page not found.
+ERROR:root:Movie id 4395's page not found.
+ERROR:root:Movie id 4396's page not found.
+ERROR:root:Movie id 4397's page not found.
+ERROR:root:Movie id 4398's page not found.
+ERROR:root:Movie id 4399's page not found.
+ERROR:root:Movie id 4400's page not found.
+ERROR:root:Movie id 4401's page not found.
+ERROR:root:Movie id 4402's page not found.
+ERROR:root:Movie id 4403's page not found.
+ERROR:root:Movie id 4404's page not found.
+ERROR:root:Movie id 4405's page not found.
+ERROR:root:Movie id 4406's page not found.
+ERROR:root:Movie id 4407's page not found.
+ERROR:root:Movie id 4408's page not found.
+ERROR:root:Movie id 4409's page not found.
+ERROR:root:Movie id 4410's page not found.
+ERROR:root:Movie id 4411's page not found.
+ERROR:root:Movie id 4412's page not found.
+ERROR:root:Movie id 4413's page not found.
+ERROR:root:Movie id 4414's page not found.
+ERROR:root:Movie id 4415's page not found.
+ERROR:root:Movie id 4416's page not found.
+ERROR:root:Movie id 4417's page not found.
+ERROR:root:Movie id 4418's page not found.
+ERROR:root:Movie id 4419's page not found.
+ERROR:root:Movie id 4420's page not found.
+ERROR:root:Movie id 4421's page not found.
+ERROR:root:Movie id 4422's page not found.
+ERROR:root:Movie id 4423's page not found.
+ERROR:root:Movie id 4424's page not found.
+ERROR:root:Movie id 4425's page not found.
+ERROR:root:Movie id 4426's page not found.
+ERROR:root:Movie id 4427's page not found.
+ERROR:root:Movie id 4428's page not found.
+ERROR:root:Movie id 4429's page not found.
+ERROR:root:Movie id 4430's page not found.
+ERROR:root:Movie id 4431's page not found.
+ERROR:root:Movie id 4432's page not found.
+ERROR:root:Movie id 4433's page not found.
+ERROR:root:Movie id 4434's page not found.
+ERROR:root:Movie id 4435's page not found.
+ERROR:root:Movie id 4436's page not found.
+ERROR:root:Movie id 4437's page not found.
+ERROR:root:Movie id 4438's page not found.
+ERROR:root:Movie id 4439's page not found.
+ERROR:root:Movie id 4440's page not found.
+ERROR:root:Movie id 4441's page not found.
+ERROR:root:Movie id 4442's page not found.
+ERROR:root:Movie id 4443's page not found.
+ERROR:root:Movie id 4444's page not found.
+ERROR:root:Movie id 4445's page not found.
+ERROR:root:Movie id 4446's page not found.
+ERROR:root:Movie id 4447's page not found.
+ERROR:root:Movie id 4448's page not found.
+ERROR:root:Movie id 4449's page not found.
+ERROR:root:Movie id 4450's page not found.
+ERROR:root:Movie id 4451's page not found.
+ERROR:root:Movie id 4452's page not found.
+ERROR:root:Movie id 4453's page not found.
+ERROR:root:Movie id 4454's page not found.
+ERROR:root:Movie id 4455's page not found.
+ERROR:root:Movie id 4456's page not found.
+ERROR:root:Movie id 4457's page not found.
+ERROR:root:Movie id 4458's page not found.
+ERROR:root:Movie id 4459's page not found.
+ERROR:root:Movie id 4460's page not found.
+ERROR:root:Movie id 4461's page not found.
+ERROR:root:Movie id 4462's page not found.
+ERROR:root:Movie id 4463's page not found.
+ERROR:root:Movie id 4464's page not found.
+ERROR:root:Movie id 4465's page not found.
+ERROR:root:Movie id 4466's page not found.
+ERROR:root:Movie id 4467's page not found.
+ERROR:root:Movie id 4468's page not found.
+ERROR:root:Movie id 4469's page not found.
+ERROR:root:Movie id 4470's page not found.
+ERROR:root:Movie id 4471's page not found.
+ERROR:root:Movie id 4472's page not found.
+ERROR:root:Movie id 4473's page not found.
+ERROR:root:Movie id 4474's page not found.
+ERROR:root:Movie id 4475's page not found.
+ERROR:root:Movie id 4476's page not found.
+ERROR:root:Movie id 4477's page not found.
+ERROR:root:Movie id 4478's page not found.
+ERROR:root:Movie id 4479's page not found.
+ERROR:root:Movie id 4480's page not found.
+ERROR:root:Movie id 4481's page not found.
+ERROR:root:Movie id 4482's page not found.
+ERROR:root:Movie id 4483's page not found.
+ERROR:root:Movie id 4484's page not found.
+ERROR:root:Movie id 4485's page not found.
+ERROR:root:Movie id 4486's page not found.
+ERROR:root:Movie id 4487's page not found.
+ERROR:root:Movie id 4488's page not found.
+ERROR:root:Movie id 4489's page not found.
+ERROR:root:Movie id 4490's page not found.
+ERROR:root:Movie id 4491's page not found.
+ERROR:root:Movie id 4492's page not found.
+ERROR:root:Movie id 4493's page not found.
+ERROR:root:Movie id 4494's page not found.
+ERROR:root:Movie id 4495's page not found.
+ERROR:root:Movie id 4496's page not found.
+ERROR:root:Movie id 4497's page not found.
+ERROR:root:Movie id 4498's page not found.
+ERROR:root:Movie id 4499's page not found.
+ERROR:root:Movie id 4500's page not found.
+ERROR:root:Movie id 4501's page not found.
+ERROR:root:Movie id 4502's page not found.
+ERROR:root:Movie id 4503's page not found.
+ERROR:root:Movie id 4504's page not found.
+ERROR:root:Movie id 4505's page not found.
+ERROR:root:Movie id 4506's page not found.
+ERROR:root:Movie id 4507's page not found.
+ERROR:root:Movie id 4508's page not found.
+ERROR:root:Movie id 4509's page not found.
+ERROR:root:Movie id 4510's page not found.
+ERROR:root:Movie id 4511's page not found.
+ERROR:root:Movie id 4512's page not found.
+ERROR:root:Movie id 4513's page not found.
+ERROR:root:Movie id 4514's page not found.
+ERROR:root:Movie id 4515's page not found.
+ERROR:root:Movie id 4516's page not found.
+ERROR:root:Movie id 4517's page not found.
+ERROR:root:Movie id 4518's page not found.
+ERROR:root:Movie id 4519's page not found.
+ERROR:root:Movie id 4520's page not found.
+ERROR:root:Movie id 4521's page not found.
+ERROR:root:Movie id 4522's page not found.
+ERROR:root:Movie id 4523's page not found.
+ERROR:root:Movie id 4524's page not found.
+ERROR:root:Movie id 4525's page not found.
+ERROR:root:Movie id 4526's page not found.
+ERROR:root:Movie id 4527's page not found.
+ERROR:root:Movie id 4528's page not found.
+ERROR:root:Movie id 4529's page not found.
+ERROR:root:Movie id 4530's page not found.
+ERROR:root:Movie id 4531's page not found.
+ERROR:root:Movie id 4532's page not found.
+ERROR:root:Movie id 4533's page not found.
+ERROR:root:Movie id 4534's page not found.
+ERROR:root:Movie id 4535's page not found.
+ERROR:root:Movie id 4536's page not found.
+ERROR:root:Movie id 4537's page not found.
+ERROR:root:Movie id 4538's page not found.
+ERROR:root:Movie id 4539's page not found.
+ERROR:root:Movie id 4540's page not found.
+ERROR:root:Movie id 4541's page not found.
+ERROR:root:Movie id 4542's page not found.
+ERROR:root:Movie id 4543's page not found.
+ERROR:root:Movie id 4544's page not found.
+ERROR:root:Movie id 4545's page not found.
+ERROR:root:Movie id 4546's page not found.
+ERROR:root:Movie id 4547's page not found.
+ERROR:root:Movie id 4548's page not found.
+ERROR:root:Movie id 4549's page not found.
+ERROR:root:Movie id 4550's page not found.
+ERROR:root:Movie id 4551's page not found.
+ERROR:root:Movie id 4552's page not found.
+ERROR:root:Movie id 4553's page not found.
+ERROR:root:Movie id 4554's page not found.
+ERROR:root:Movie id 4555's page not found.
+ERROR:root:Movie id 4556's page not found.
+ERROR:root:Movie id 4557's page not found.
+ERROR:root:Movie id 4558's page not found.
+ERROR:root:Movie id 4559's page not found.
+ERROR:root:Movie id 4560's page not found.
+ERROR:root:Movie id 4561's page not found.
+ERROR:root:Movie id 4562's page not found.
+ERROR:root:Movie id 4563's page not found.
+ERROR:root:Movie id 4564's page not found.
+ERROR:root:Movie id 4565's page not found.
+ERROR:root:Movie id 4566's page not found.
+ERROR:root:Movie id 4567's page not found.
+ERROR:root:Movie id 4568's page not found.
+ERROR:root:Movie id 4569's page not found.
+ERROR:root:Movie id 4570's page not found.
+ERROR:root:Movie id 4571's page not found.
+ERROR:root:Movie id 4572's page not found.
+ERROR:root:Movie id 4573's page not found.
+ERROR:root:Movie id 4574's page not found.
+ERROR:root:Movie id 4575's page not found.
+ERROR:root:Movie id 4576's page not found.
+ERROR:root:Movie id 4577's page not found.
+ERROR:root:Movie id 4578's page not found.
+ERROR:root:Movie id 4579's page not found.
+ERROR:root:Movie id 4580's page not found.
+ERROR:root:Movie id 4581's page not found.
+ERROR:root:Movie id 4582's page not found.
+ERROR:root:Movie id 4583's page not found.
+ERROR:root:Movie id 4584's page not found.
+ERROR:root:Movie id 4585's page not found.
+ERROR:root:Movie id 4586's page not found.
+ERROR:root:Movie id 4587's page not found.
+ERROR:root:Movie id 4588's page not found.
+ERROR:root:Movie id 4589's page not found.
+ERROR:root:Movie id 4590's page not found.
+ERROR:root:Movie id 4591's page not found.
+ERROR:root:Movie id 4592's page not found.
+ERROR:root:Movie id 4593's page not found.
+ERROR:root:Movie id 4594's page not found.
+ERROR:root:Movie id 4595's page not found.
+ERROR:root:Movie id 4596's page not found.
+ERROR:root:Movie id 4597's page not found.
+ERROR:root:Movie id 4598's page not found.
+ERROR:root:Movie id 4599's page not found.
+ERROR:root:Movie id 4600's page not found.
+ERROR:root:Movie id 4601's page not found.
+ERROR:root:Movie id 4602's page not found.
+ERROR:root:Movie id 4603's page not found.
+ERROR:root:Movie id 4604's page not found.
+ERROR:root:Movie id 4605's page not found.
+ERROR:root:Movie id 4606's page not found.
+ERROR:root:Movie id 4607's page not found.
+ERROR:root:Movie id 4608's page not found.
+ERROR:root:Movie id 4609's page not found.
+ERROR:root:Movie id 4610's page not found.
+ERROR:root:Movie id 4611's page not found.
+ERROR:root:Movie id 4612's page not found.
+ERROR:root:Movie id 4613's page not found.
+ERROR:root:Movie id 4614's page not found.
+ERROR:root:Movie id 4615's page not found.
+ERROR:root:Movie id 4616's page not found.
+ERROR:root:Movie id 4617's page not found.
+ERROR:root:Movie id 4618's page not found.
+ERROR:root:Movie id 4619's page not found.
+ERROR:root:Movie id 4620's page not found.
+ERROR:root:Movie id 4621's page not found.
+ERROR:root:Movie id 4622's page not found.
+ERROR:root:Movie id 4623's page not found.
+ERROR:root:Movie id 4624's page not found.
+ERROR:root:Movie id 4625's page not found.
+ERROR:root:Movie id 4626's page not found.
+ERROR:root:Movie id 4627's page not found.
+ERROR:root:Movie id 4628's page not found.
+ERROR:root:Movie id 4629's page not found.
+ERROR:root:Movie id 4630's page not found.
+ERROR:root:Movie id 4631's page not found.
+ERROR:root:Movie id 4632's page not found.
+ERROR:root:Movie id 4633's page not found.
+ERROR:root:Movie id 4634's page not found.
+ERROR:root:Movie id 4635's page not found.
+ERROR:root:Movie id 4636's page not found.
+ERROR:root:Movie id 4637's page not found.
+ERROR:root:Movie id 4638's page not found.
+ERROR:root:Movie id 4639's page not found.
+ERROR:root:Movie id 4640's page not found.
+ERROR:root:Movie id 4641's page not found.
+ERROR:root:Movie id 4642's page not found.
+ERROR:root:Movie id 4643's page not found.
+ERROR:root:Movie id 4644's page not found.
+ERROR:root:Movie id 4645's page not found.
+ERROR:root:Movie id 4646's page not found.
+ERROR:root:Movie id 4647's page not found.
+ERROR:root:Movie id 4648's page not found.
+ERROR:root:Movie id 4649's page not found.
+ERROR:root:Movie id 4650's page not found.
+ERROR:root:Movie id 4651's page not found.
+ERROR:root:Movie id 4652's page not found.
+ERROR:root:Movie id 4653's page not found.
+ERROR:root:Movie id 4654's page not found.
+ERROR:root:Movie id 4655's page not found.
+ERROR:root:Movie id 4656's page not found.
+ERROR:root:Movie id 4657's page not found.
+ERROR:root:Movie id 4658's page not found.
+ERROR:root:Movie id 4659's page not found.
+ERROR:root:Movie id 4660's page not found.
+ERROR:root:Movie id 4661's page not found.
+ERROR:root:Movie id 4662's page not found.
+ERROR:root:Movie id 4663's page not found.
+ERROR:root:Movie id 4664's page not found.
+ERROR:root:Movie id 4665's page not found.
+ERROR:root:Movie id 4666's page not found.
+ERROR:root:Movie id 4667's page not found.
+ERROR:root:Movie id 4668's page not found.
+ERROR:root:Movie id 4669's page not found.
+ERROR:root:Movie id 4670's page not found.
+ERROR:root:Movie id 4671's page not found.
+ERROR:root:Movie id 4672's page not found.
+ERROR:root:Movie id 4673's page not found.
+ERROR:root:Movie id 4674's page not found.
+ERROR:root:Movie id 4675's page not found.
+ERROR:root:Movie id 4676's page not found.
+ERROR:root:Movie id 4677's page not found.
+ERROR:root:Movie id 4678's page not found.
+ERROR:root:Movie id 4679's page not found.
+ERROR:root:Movie id 4680's page not found.
+ERROR:root:Movie id 4681's page not found.
+ERROR:root:Movie id 4682's page not found.
+ERROR:root:Movie id 4683's page not found.
+ERROR:root:Movie id 4684's page not found.
+ERROR:root:Movie id 4685's page not found.
+ERROR:root:Movie id 4686's page not found.
+ERROR:root:Movie id 4687's page not found.
+ERROR:root:Movie id 4688's page not found.
+ERROR:root:Movie id 4689's page not found.
+ERROR:root:Movie id 4690's page not found.
+ERROR:root:Movie id 4691's page not found.
+ERROR:root:Movie id 4692's page not found.
+ERROR:root:Movie id 4693's page not found.
+ERROR:root:Movie id 4694's page not found.
+ERROR:root:Movie id 4695's page not found.
+ERROR:root:Movie id 4696's page not found.
+ERROR:root:Movie id 4697's page not found.
+ERROR:root:Movie id 4698's page not found.
+ERROR:root:Movie id 4699's page not found.
+ERROR:root:Movie id 4700's page not found.
+ERROR:root:Movie id 4701's page not found.
+ERROR:root:Movie id 4702's page not found.
+ERROR:root:Movie id 4703's page not found.
+ERROR:root:Movie id 4704's page not found.
+ERROR:root:Movie id 4705's page not found.
+ERROR:root:Movie id 4706's page not found.
+ERROR:root:Movie id 4707's page not found.
+ERROR:root:Movie id 4708's page not found.
+ERROR:root:Movie id 4709's page not found.
+ERROR:root:Movie id 4710's page not found.
+ERROR:root:Movie id 4711's page not found.
+ERROR:root:Movie id 4712's page not found.
+ERROR:root:Movie id 4713's page not found.
+ERROR:root:Movie id 4714's page not found.
+ERROR:root:Movie id 4715's page not found.
+ERROR:root:Movie id 4716's page not found.
+ERROR:root:Movie id 4717's page not found.
+ERROR:root:Movie id 4718's page not found.
+ERROR:root:Movie id 4719's page not found.
+ERROR:root:Movie id 4720's page not found.
+ERROR:root:Movie id 4721's page not found.
+ERROR:root:Movie id 4722's page not found.
+ERROR:root:Movie id 4723's page not found.
+ERROR:root:Movie id 4724's page not found.
+ERROR:root:Movie id 4725's page not found.
+ERROR:root:Movie id 4726's page not found.
+ERROR:root:Movie id 4727's page not found.
+ERROR:root:Movie id 4728's page not found.
+ERROR:root:Movie id 4729's page not found.
+ERROR:root:Movie id 4730's page not found.
+ERROR:root:Movie id 4731's page not found.
+ERROR:root:Movie id 4732's page not found.
+ERROR:root:Movie id 4733's page not found.
+ERROR:root:Movie id 4734's page not found.
+ERROR:root:Movie id 4735's page not found.
+ERROR:root:Movie id 4736's page not found.
+ERROR:root:Movie id 4737's page not found.
+ERROR:root:Movie id 4738's page not found.
+ERROR:root:Movie id 4739's page not found.
+ERROR:root:Movie id 4740's page not found.
+ERROR:root:Movie id 4741's page not found.
+ERROR:root:Movie id 4742's page not found.
+ERROR:root:Movie id 4743's page not found.
+ERROR:root:Movie id 4744's page not found.
+ERROR:root:Movie id 4745's page not found.
+ERROR:root:Movie id 4746's page not found.
+ERROR:root:Movie id 4747's page not found.
+ERROR:root:Movie id 4748's page not found.
+ERROR:root:Movie id 4749's page not found.
+ERROR:root:Movie id 4750's page not found.
+ERROR:root:Movie id 4751's page not found.
+ERROR:root:Movie id 4752's page not found.
+ERROR:root:Movie id 4753's page not found.
+ERROR:root:Movie id 4754's page not found.
+ERROR:root:Movie id 4755's page not found.
+ERROR:root:Movie id 4756's page not found.
+ERROR:root:Movie id 4757's page not found.
+ERROR:root:Movie id 4758's page not found.
+ERROR:root:Movie id 4759's page not found.
+ERROR:root:Movie id 4760's page not found.
+ERROR:root:Movie id 4761's page not found.
+ERROR:root:Movie id 4762's page not found.
+ERROR:root:Movie id 4763's page not found.
+ERROR:root:Movie id 4764's page not found.
+ERROR:root:Movie id 4765's page not found.
+ERROR:root:Movie id 4766's page not found.
+ERROR:root:Movie id 4767's page not found.
+ERROR:root:Movie id 4768's page not found.
+ERROR:root:Movie id 4769's page not found.
+ERROR:root:Movie id 4770's page not found.
+ERROR:root:Movie id 4771's page not found.
+ERROR:root:Movie id 4772's page not found.
+ERROR:root:Movie id 4773's page not found.
+ERROR:root:Movie id 4774's page not found.
+ERROR:root:Movie id 4775's page not found.
+ERROR:root:Movie id 4776's page not found.
+ERROR:root:Movie id 4777's page not found.
+ERROR:root:Movie id 4778's page not found.
+ERROR:root:Movie id 4779's page not found.
+ERROR:root:Movie id 4780's page not found.
+ERROR:root:Movie id 4781's page not found.
+ERROR:root:Movie id 4782's page not found.
+ERROR:root:Movie id 4783's page not found.
+ERROR:root:Movie id 4784's page not found.
+ERROR:root:Movie id 4785's page not found.
+ERROR:root:Movie id 4786's page not found.
+ERROR:root:Movie id 4787's page not found.
+ERROR:root:Movie id 4788's page not found.
+ERROR:root:Movie id 4789's page not found.
+ERROR:root:Movie id 4790's page not found.
+ERROR:root:Movie id 4791's page not found.
+ERROR:root:Movie id 4792's page not found.
+ERROR:root:Movie id 4793's page not found.
+ERROR:root:Movie id 4794's page not found.
+ERROR:root:Movie id 4795's page not found.
+ERROR:root:Movie id 4796's page not found.
+ERROR:root:Movie id 4797's page not found.
+ERROR:root:Movie id 4798's page not found.
+ERROR:root:Movie id 4799's page not found.
+ERROR:root:Movie id 4800's page not found.
+ERROR:root:Movie id 4801's page not found.
+ERROR:root:Movie id 4802's page not found.
+ERROR:root:Movie id 4803's page not found.
+ERROR:root:Movie id 4804's page not found.
+ERROR:root:Movie id 4805's page not found.
+ERROR:root:Movie id 4806's page not found.
+ERROR:root:Movie id 4807's page not found.
+ERROR:root:Movie id 4808's page not found.
+ERROR:root:Movie id 4809's page not found.
+ERROR:root:Movie id 4810's page not found.
+ERROR:root:Movie id 4811's page not found.
+ERROR:root:Movie id 4812's page not found.
+ERROR:root:Movie id 4813's page not found.
+ERROR:root:Movie id 4814's page not found.
+ERROR:root:Movie id 4815's page not found.
+ERROR:root:Movie id 4816's page not found.
+ERROR:root:Movie id 4817's page not found.
+ERROR:root:Movie id 4818's page not found.
+ERROR:root:Movie id 4819's page not found.
+ERROR:root:Movie id 4820's page not found.
+ERROR:root:Movie id 4821's page not found.
+ERROR:root:Movie id 4822's page not found.
+ERROR:root:Movie id 4823's page not found.
+ERROR:root:Movie id 4824's page not found.
+ERROR:root:Movie id 4825's page not found.
+ERROR:root:Movie id 4826's page not found.
+ERROR:root:Movie id 4827's page not found.
+ERROR:root:Movie id 4828's page not found.
+ERROR:root:Movie id 4829's page not found.
+ERROR:root:Movie id 4830's page not found.
+ERROR:root:Movie id 4831's page not found.
+ERROR:root:Movie id 4832's page not found.
+ERROR:root:Movie id 4833's page not found.
+ERROR:root:Movie id 4834's page not found.
+ERROR:root:Movie id 4835's page not found.
+ERROR:root:Movie id 4836's page not found.
+ERROR:root:Movie id 4837's page not found.
+ERROR:root:Movie id 4838's page not found.
+ERROR:root:Movie id 4839's page not found.
+ERROR:root:Movie id 4840's page not found.
+ERROR:root:Movie id 4841's page not found.
+ERROR:root:Movie id 4842's page not found.
+ERROR:root:Movie id 4843's page not found.
+ERROR:root:Movie id 4844's page not found.
+ERROR:root:Movie id 4845's page not found.
+ERROR:root:Movie id 4846's page not found.
+ERROR:root:Movie id 4847's page not found.
+ERROR:root:Movie id 4848's page not found.
+ERROR:root:Movie id 4849's page not found.
+ERROR:root:Movie id 4850's page not found.
+ERROR:root:Movie id 4851's page not found.
+ERROR:root:Movie id 4852's page not found.
+ERROR:root:Movie id 4853's page not found.
+ERROR:root:Movie id 4854's page not found.
+ERROR:root:Movie id 4855's page not found.
+ERROR:root:Movie id 4856's page not found.
+ERROR:root:Movie id 4857's page not found.
+ERROR:root:Movie id 4858's page not found.
+ERROR:root:Movie id 4859's page not found.
+ERROR:root:Movie id 4860's page not found.
+ERROR:root:Movie id 4861's page not found.
+ERROR:root:Movie id 4862's page not found.
+ERROR:root:Movie id 4863's page not found.
+ERROR:root:Movie id 4864's page not found.
+ERROR:root:Movie id 4865's page not found.
+ERROR:root:Movie id 4866's page not found.
+ERROR:root:Movie id 4867's page not found.
+ERROR:root:Movie id 4868's page not found.
+ERROR:root:Movie id 4869's page not found.
+ERROR:root:Movie id 4870's page not found.
+ERROR:root:Movie id 4871's page not found.
+ERROR:root:Movie id 4872's page not found.
+ERROR:root:Movie id 4873's page not found.
+ERROR:root:Movie id 4874's page not found.
+ERROR:root:Movie id 4875's page not found.
+ERROR:root:Movie id 4876's page not found.
+ERROR:root:Movie id 4877's page not found.
+ERROR:root:Movie id 4878's page not found.
+ERROR:root:Movie id 4879's page not found.
+ERROR:root:Movie id 4880's page not found.
+ERROR:root:Movie id 4881's page not found.
+ERROR:root:Movie id 4882's page not found.
+ERROR:root:Movie id 4883's page not found.
+ERROR:root:Movie id 4884's page not found.
+ERROR:root:Movie id 4885's page not found.
+ERROR:root:Movie id 4886's page not found.
+ERROR:root:Movie id 4887's page not found.
+ERROR:root:Movie id 4888's page not found.
+ERROR:root:Movie id 4889's page not found.
+ERROR:root:Movie id 4890's page not found.
+ERROR:root:Movie id 4891's page not found.
+ERROR:root:Movie id 4892's page not found.
+ERROR:root:Movie id 4893's page not found.
+ERROR:root:Movie id 4894's page not found.
+ERROR:root:Movie id 4895's page not found.
+ERROR:root:Movie id 4896's page not found.
+ERROR:root:Movie id 4897's page not found.
+ERROR:root:Movie id 4898's page not found.
+ERROR:root:Movie id 4899's page not found.
+ERROR:root:Movie id 4900's page not found.
+ERROR:root:Movie id 4901's page not found.
+ERROR:root:Movie id 4902's page not found.
+ERROR:root:Movie id 4903's page not found.
+ERROR:root:Movie id 4904's page not found.
+ERROR:root:Movie id 4905's page not found.
+ERROR:root:Movie id 4906's page not found.
+ERROR:root:Movie id 4907's page not found.
+ERROR:root:Movie id 4908's page not found.
+ERROR:root:Movie id 4909's page not found.
+ERROR:root:Movie id 4910's page not found.
+ERROR:root:Movie id 4911's page not found.
+ERROR:root:Movie id 4912's page not found.
+ERROR:root:Movie id 4913's page not found.
+ERROR:root:Movie id 4914's page not found.
+ERROR:root:Movie id 4915's page not found.
+ERROR:root:Movie id 4916's page not found.
+ERROR:root:Movie id 4917's page not found.
+ERROR:root:Movie id 4918's page not found.
+ERROR:root:Movie id 4919's page not found.
+ERROR:root:Movie id 4920's page not found.
+ERROR:root:Movie id 4921's page not found.
+ERROR:root:Movie id 4922's page not found.
+ERROR:root:Movie id 4923's page not found.
+ERROR:root:Movie id 4924's page not found.
+ERROR:root:Movie id 4925's page not found.
+ERROR:root:Movie id 4926's page not found.
+ERROR:root:Movie id 4927's page not found.
+ERROR:root:Movie id 4928's page not found.
+ERROR:root:Movie id 4929's page not found.
+ERROR:root:Movie id 4930's page not found.
+ERROR:root:Movie id 4931's page not found.
+ERROR:root:Movie id 4932's page not found.
+ERROR:root:Movie id 4933's page not found.
+ERROR:root:Movie id 4934's page not found.
+ERROR:root:Movie id 4935's page not found.
+ERROR:root:Movie id 4936's page not found.
+ERROR:root:Movie id 4937's page not found.
+ERROR:root:Movie id 4938's page not found.
+ERROR:root:Movie id 4939's page not found.
+ERROR:root:Movie id 4940's page not found.
+ERROR:root:Movie id 4941's page not found.
+ERROR:root:Movie id 4942's page not found.
+ERROR:root:Movie id 4943's page not found.
+ERROR:root:Movie id 4944's page not found.
+ERROR:root:Movie id 4945's page not found.
+ERROR:root:Movie id 4946's page not found.
+ERROR:root:Movie id 4947's page not found.
+ERROR:root:Movie id 4948's page not found.
+ERROR:root:Movie id 4949's page not found.
+ERROR:root:Movie id 4950's page not found.
+ERROR:root:Movie id 4951's page not found.
+ERROR:root:Movie id 4952's page not found.
+ERROR:root:Movie id 4953's page not found.
+ERROR:root:Movie id 4954's page not found.
+ERROR:root:Movie id 4955's page not found.
+ERROR:root:Movie id 4956's page not found.
+ERROR:root:Movie id 4957's page not found.
+ERROR:root:Movie id 4958's page not found.
+ERROR:root:Movie id 4959's page not found.
+ERROR:root:Movie id 4960's page not found.
+ERROR:root:Movie id 4961's page not found.
+ERROR:root:Movie id 4962's page not found.
+ERROR:root:Movie id 4963's page not found.
+ERROR:root:Movie id 4964's page not found.
+ERROR:root:Movie id 4965's page not found.
+ERROR:root:Movie id 4966's page not found.
+ERROR:root:Movie id 4967's page not found.
+ERROR:root:Movie id 4968's page not found.
+ERROR:root:Movie id 4969's page not found.
+ERROR:root:Movie id 4970's page not found.
+ERROR:root:Movie id 4971's page not found.
+ERROR:root:Movie id 4972's page not found.
+ERROR:root:Movie id 4973's page not found.
+ERROR:root:Movie id 4974's page not found.
+ERROR:root:Movie id 4975's page not found.
+ERROR:root:Movie id 4976's page not found.
+ERROR:root:Movie id 4977's page not found.
+ERROR:root:Movie id 4978's page not found.
+ERROR:root:Movie id 4979's page not found.
+ERROR:root:Movie id 4980's page not found.
+ERROR:root:Movie id 4981's page not found.
+ERROR:root:Movie id 4982's page not found.
+ERROR:root:Movie id 4983's page not found.
+ERROR:root:Movie id 4984's page not found.
+ERROR:root:Movie id 4985's page not found.
+ERROR:root:Movie id 4986's page not found.
+ERROR:root:Movie id 4987's page not found.
+ERROR:root:Movie id 4988's page not found.
+ERROR:root:Movie id 4989's page not found.
+ERROR:root:Movie id 4990's page not found.
+ERROR:root:Movie id 4991's page not found.
+ERROR:root:Movie id 4992's page not found.
+ERROR:root:Movie id 4993's page not found.
+ERROR:root:Movie id 4994's page not found.
+ERROR:root:Movie id 4995's page not found.
+ERROR:root:Movie id 4996's page not found.
+ERROR:root:Movie id 4997's page not found.
+ERROR:root:Movie id 4998's page not found.
+ERROR:root:Movie id 4999's page not found.
+ERROR:root:Movie id 5000's page not found.
+ERROR:root:Movie id 5001's page not found.
+ERROR:root:Movie id 5002's page not found.
+ERROR:root:Movie id 5003's page not found.
+ERROR:root:Movie id 5004's page not found.
+ERROR:root:Movie id 5005's page not found.
+ERROR:root:Movie id 5006's page not found.
+ERROR:root:Movie id 5007's page not found.
+ERROR:root:Movie id 5008's page not found.
+ERROR:root:Movie id 5009's page not found.
+ERROR:root:Movie id 5010's page not found.
+ERROR:root:Movie id 5011's page not found.
+ERROR:root:Movie id 5012's page not found.
+ERROR:root:Movie id 5013's page not found.
+ERROR:root:Movie id 5014's page not found.
+ERROR:root:Movie id 5015's page not found.
+ERROR:root:Movie id 5016's page not found.
+ERROR:root:Movie id 5017's page not found.
+ERROR:root:Movie id 5018's page not found.
+ERROR:root:Movie id 5019's page not found.
+ERROR:root:Movie id 5020's page not found.
+ERROR:root:Movie id 5021's page not found.
+ERROR:root:Movie id 5022's page not found.
+ERROR:root:Movie id 5023's page not found.
+ERROR:root:Movie id 5024's page not found.
+ERROR:root:Movie id 5025's page not found.
+ERROR:root:Movie id 5026's page not found.
+ERROR:root:Movie id 5027's page not found.
+ERROR:root:Movie id 5028's page not found.
+ERROR:root:Movie id 5029's page not found.
+ERROR:root:Movie id 5030's page not found.
+ERROR:root:Movie id 5031's page not found.
+ERROR:root:Movie id 5032's page not found.
+ERROR:root:Movie id 5033's page not found.
+ERROR:root:Movie id 5034's page not found.
+ERROR:root:Movie id 5035's page not found.
+ERROR:root:Movie id 5036's page not found.
+ERROR:root:Movie id 5037's page not found.
+ERROR:root:Movie id 5038's page not found.
+ERROR:root:Movie id 5039's page not found.
+ERROR:root:Movie id 5040's page not found.
+ERROR:root:Movie id 5041's page not found.
+ERROR:root:Movie id 5042's page not found.
+ERROR:root:Movie id 5043's page not found.
+ERROR:root:Movie id 5044's page not found.
+ERROR:root:Movie id 5045's page not found.
+ERROR:root:Movie id 5046's page not found.
+ERROR:root:Movie id 5047's page not found.
+ERROR:root:Movie id 5048's page not found.
+ERROR:root:Movie id 5049's page not found.
+ERROR:root:Movie id 5050's page not found.
+ERROR:root:Movie id 5051's page not found.
+ERROR:root:Movie id 5052's page not found.
+ERROR:root:Movie id 5053's page not found.
+ERROR:root:Movie id 5054's page not found.
+ERROR:root:Movie id 5055's page not found.
+ERROR:root:Movie id 5056's page not found.
+ERROR:root:Movie id 5057's page not found.
+ERROR:root:Movie id 5058's page not found.
+ERROR:root:Movie id 5059's page not found.
+ERROR:root:Movie id 5060's page not found.
+ERROR:root:Movie id 5061's page not found.
+ERROR:root:Movie id 5062's page not found.
+ERROR:root:Movie id 5063's page not found.
+ERROR:root:Movie id 5064's page not found.
+ERROR:root:Movie id 5065's page not found.
+ERROR:root:Movie id 5066's page not found.
+ERROR:root:Movie id 5067's page not found.
+ERROR:root:Movie id 5068's page not found.
+ERROR:root:Movie id 5069's page not found.
+ERROR:root:Movie id 5070's page not found.
+ERROR:root:Movie id 5071's page not found.
+ERROR:root:Movie id 5072's page not found.
+ERROR:root:Movie id 5073's page not found.
+ERROR:root:Movie id 5074's page not found.
+ERROR:root:Movie id 5075's page not found.
+ERROR:root:Movie id 5076's page not found.
+ERROR:root:Movie id 5077's page not found.
+ERROR:root:Movie id 5078's page not found.
+ERROR:root:Movie id 5079's page not found.
+ERROR:root:Movie id 5080's page not found.
+ERROR:root:Movie id 5081's page not found.
+ERROR:root:Movie id 5082's page not found.
+ERROR:root:Movie id 5083's page not found.
+ERROR:root:Movie id 5084's page not found.
+ERROR:root:Movie id 5085's page not found.
+ERROR:root:Movie id 5086's page not found.
+ERROR:root:Movie id 5087's page not found.
+ERROR:root:Movie id 5088's page not found.
+ERROR:root:Movie id 5089's page not found.
+ERROR:root:Movie id 5090's page not found.
+ERROR:root:Movie id 5091's page not found.
+ERROR:root:Movie id 5092's page not found.
+ERROR:root:Movie id 5093's page not found.
+ERROR:root:Movie id 5094's page not found.
+ERROR:root:Movie id 5095's page not found.
+ERROR:root:Movie id 5096's page not found.
+ERROR:root:Movie id 5097's page not found.
+ERROR:root:Movie id 5098's page not found.
+ERROR:root:Movie id 5099's page not found.
+ERROR:root:Movie id 5100's page not found.
+ERROR:root:Movie id 5101's page not found.
+ERROR:root:Movie id 5102's page not found.
+ERROR:root:Movie id 5103's page not found.
+ERROR:root:Movie id 5104's page not found.
+ERROR:root:Movie id 5105's page not found.
+ERROR:root:Movie id 5106's page not found.
+ERROR:root:Movie id 5107's page not found.
+ERROR:root:Movie id 5108's page not found.
+ERROR:root:Movie id 5109's page not found.
+ERROR:root:Movie id 5110's page not found.
+ERROR:root:Movie id 5111's page not found.
+ERROR:root:Movie id 5112's page not found.
+ERROR:root:Movie id 5113's page not found.
+ERROR:root:Movie id 5114's page not found.
+ERROR:root:Movie id 5115's page not found.
+ERROR:root:Movie id 5116's page not found.
+ERROR:root:Movie id 5117's page not found.
+ERROR:root:Movie id 5118's page not found.
+ERROR:root:Movie id 5119's page not found.
+ERROR:root:Movie id 5120's page not found.
+ERROR:root:Movie id 5121's page not found.
+ERROR:root:Movie id 5122's page not found.
+ERROR:root:Movie id 5123's page not found.
+ERROR:root:Movie id 5124's page not found.
+ERROR:root:Movie id 5125's page not found.
+ERROR:root:Movie id 5126's page not found.
+ERROR:root:Movie id 5127's page not found.
+ERROR:root:Movie id 5128's page not found.
+ERROR:root:Movie id 5129's page not found.
+ERROR:root:Movie id 5130's page not found.
+ERROR:root:Movie id 5131's page not found.
+ERROR:root:Movie id 5132's page not found.
+ERROR:root:Movie id 5133's page not found.
+ERROR:root:Movie id 5134's page not found.
+ERROR:root:Movie id 5135's page not found.
+ERROR:root:Movie id 5136's page not found.
+ERROR:root:Movie id 5137's page not found.
+ERROR:root:Movie id 5138's page not found.
+ERROR:root:Movie id 5139's page not found.
+ERROR:root:Movie id 5140's page not found.
+ERROR:root:Movie id 5141's page not found.
+ERROR:root:Movie id 5142's page not found.
+ERROR:root:Movie id 5143's page not found.
+ERROR:root:Movie id 5144's page not found.
+ERROR:root:Movie id 5145's page not found.
+ERROR:root:Movie id 5146's page not found.
+ERROR:root:Movie id 5147's page not found.
+ERROR:root:Movie id 5148's page not found.
+ERROR:root:Movie id 5149's page not found.
+ERROR:root:Movie id 5150's page not found.
+ERROR:root:Movie id 5151's page not found.
+ERROR:root:Movie id 5152's page not found.
+ERROR:root:Movie id 5153's page not found.
+ERROR:root:Movie id 5154's page not found.
+ERROR:root:Movie id 5155's page not found.
+ERROR:root:Movie id 5156's page not found.
+ERROR:root:Movie id 5157's page not found.
+ERROR:root:Movie id 5158's page not found.
+ERROR:root:Movie id 5159's page not found.
+ERROR:root:Movie id 5160's page not found.
+ERROR:root:Movie id 5161's page not found.
+ERROR:root:Movie id 5162's page not found.
+ERROR:root:Movie id 5163's page not found.
+ERROR:root:Movie id 5164's page not found.
+ERROR:root:Movie id 5165's page not found.
+ERROR:root:Movie id 5166's page not found.
+ERROR:root:Movie id 5167's page not found.
+ERROR:root:Movie id 5168's page not found.
+ERROR:root:Movie id 5169's page not found.
+ERROR:root:Movie id 5170's page not found.
+ERROR:root:Movie id 5171's page not found.
+ERROR:root:Movie id 5172's page not found.
+ERROR:root:Movie id 5173's page not found.
+ERROR:root:Movie id 5174's page not found.
+ERROR:root:Movie id 5175's page not found.
+ERROR:root:Movie id 5176's page not found.
+ERROR:root:Movie id 5177's page not found.
+ERROR:root:Movie id 5178's page not found.
+ERROR:root:Movie id 5179's page not found.
+ERROR:root:Movie id 5180's page not found.
+ERROR:root:Movie id 5181's page not found.
+ERROR:root:Movie id 5182's page not found.
+ERROR:root:Movie id 5183's page not found.
+ERROR:root:Movie id 5184's page not found.
+ERROR:root:Movie id 5185's page not found.
+ERROR:root:Movie id 5186's page not found.
+ERROR:root:Movie id 5187's page not found.
+ERROR:root:Movie id 5188's page not found.
+ERROR:root:Movie id 5189's page not found.
+ERROR:root:Movie id 5190's page not found.
+ERROR:root:Movie id 5191's page not found.
+ERROR:root:Movie id 5192's page not found.
+ERROR:root:Movie id 5193's page not found.
+ERROR:root:Movie id 5194's page not found.
+ERROR:root:Movie id 5195's page not found.
+ERROR:root:Movie id 5196's page not found.
+ERROR:root:Movie id 5197's page not found.
+ERROR:root:Movie id 5198's page not found.
+ERROR:root:Movie id 5199's page not found.
+ERROR:root:Movie id 5200's page not found.
+ERROR:root:Movie id 5201's page not found.
+ERROR:root:Movie id 5202's page not found.
+ERROR:root:Movie id 5203's page not found.
+ERROR:root:Movie id 5204's page not found.
+ERROR:root:Movie id 5205's page not found.
+ERROR:root:Movie id 5206's page not found.
+ERROR:root:Movie id 5207's page not found.
+ERROR:root:Movie id 5208's page not found.
+ERROR:root:Movie id 5209's page not found.
+ERROR:root:Movie id 5210's page not found.
+ERROR:root:Movie id 5211's page not found.
+ERROR:root:Movie id 5212's page not found.
+ERROR:root:Movie id 5213's page not found.
+ERROR:root:Movie id 5214's page not found.
+ERROR:root:Movie id 5215's page not found.
+ERROR:root:Movie id 5216's page not found.
+ERROR:root:Movie id 5217's page not found.
+ERROR:root:Movie id 5218's page not found.
+ERROR:root:Movie id 5219's page not found.
+ERROR:root:Movie id 5220's page not found.
+ERROR:root:Movie id 5221's page not found.
+ERROR:root:Movie id 5222's page not found.
+ERROR:root:Movie id 5223's page not found.
+ERROR:root:Movie id 5224's page not found.
+ERROR:root:Movie id 5225's page not found.
+ERROR:root:Movie id 5226's page not found.
+ERROR:root:Movie id 5227's page not found.
+ERROR:root:Movie id 5228's page not found.
+ERROR:root:Movie id 5229's page not found.
+ERROR:root:Movie id 5230's page not found.
+ERROR:root:Movie id 5231's page not found.
+ERROR:root:Movie id 5232's page not found.
+ERROR:root:Movie id 5233's page not found.
+ERROR:root:Movie id 5234's page not found.
+ERROR:root:Movie id 5235's page not found.
+ERROR:root:Movie id 5236's page not found.
+ERROR:root:Movie id 5237's page not found.
+ERROR:root:Movie id 5238's page not found.
+ERROR:root:Movie id 5239's page not found.
+ERROR:root:Movie id 5240's page not found.
+ERROR:root:Movie id 5241's page not found.
+ERROR:root:Movie id 5242's page not found.
+ERROR:root:Movie id 5243's page not found.
+ERROR:root:Movie id 5244's page not found.
+ERROR:root:Movie id 5245's page not found.
+ERROR:root:Movie id 5246's page not found.
+ERROR:root:Movie id 5247's page not found.
+ERROR:root:Movie id 5248's page not found.
+ERROR:root:Movie id 5249's page not found.
+ERROR:root:Movie id 5250's page not found.
+ERROR:root:Movie id 5251's page not found.
+ERROR:root:Movie id 5252's page not found.
+ERROR:root:Movie id 5253's page not found.
+ERROR:root:Movie id 5254's page not found.
+ERROR:root:Movie id 5255's page not found.
+ERROR:root:Movie id 5256's page not found.
+ERROR:root:Movie id 5257's page not found.
+ERROR:root:Movie id 5258's page not found.
+ERROR:root:Movie id 5259's page not found.
+ERROR:root:Movie id 5260's page not found.
+ERROR:root:Movie id 5261's page not found.
+ERROR:root:Movie id 5262's page not found.
+ERROR:root:Movie id 5263's page not found.
+ERROR:root:Movie id 5264's page not found.
+ERROR:root:Movie id 5265's page not found.
+ERROR:root:Movie id 5266's page not found.
+ERROR:root:Movie id 5267's page not found.
+ERROR:root:Movie id 5268's page not found.
+ERROR:root:Movie id 5269's page not found.
+ERROR:root:Movie id 5270's page not found.
+ERROR:root:Movie id 5271's page not found.
+ERROR:root:Movie id 5272's page not found.
+ERROR:root:Movie id 5273's page not found.
+ERROR:root:Movie id 5274's page not found.
+ERROR:root:Movie id 5275's page not found.
+ERROR:root:Movie id 5276's page not found.
+ERROR:root:Movie id 5277's page not found.
+ERROR:root:Movie id 5278's page not found.
+ERROR:root:Movie id 5279's page not found.
+ERROR:root:Movie id 5280's page not found.
+ERROR:root:Movie id 5281's page not found.
+ERROR:root:Movie id 5282's page not found.
+ERROR:root:Movie id 5283's page not found.
+ERROR:root:Movie id 5284's page not found.
+ERROR:root:Movie id 5285's page not found.
+ERROR:root:Movie id 5286's page not found.
+ERROR:root:Movie id 5287's page not found.
+ERROR:root:Movie id 5288's page not found.
+ERROR:root:Movie id 5289's page not found.
+ERROR:root:Movie id 5290's page not found.
+ERROR:root:Movie id 5291's page not found.
+ERROR:root:Movie id 5292's page not found.
+ERROR:root:Movie id 5293's page not found.
+ERROR:root:Movie id 5294's page not found.
+ERROR:root:Movie id 5295's page not found.
+ERROR:root:Movie id 5296's page not found.
+ERROR:root:Movie id 5297's page not found.
+ERROR:root:Movie id 5298's page not found.
+ERROR:root:Movie id 5299's page not found.
+ERROR:root:Movie id 5300's page not found.
+ERROR:root:Movie id 5301's page not found.
+ERROR:root:Movie id 5302's page not found.
+ERROR:root:Movie id 5303's page not found.
+ERROR:root:Movie id 5304's page not found.
+ERROR:root:Movie id 5305's page not found.
+ERROR:root:Movie id 5306's page not found.
+ERROR:root:Movie id 5307's page not found.
+ERROR:root:Movie id 5308's page not found.
+ERROR:root:Movie id 5309's page not found.
+ERROR:root:Movie id 5310's page not found.
+ERROR:root:Movie id 5311's page not found.
+ERROR:root:Movie id 5312's page not found.
+ERROR:root:Movie id 5313's page not found.
+ERROR:root:Movie id 5314's page not found.
+ERROR:root:Movie id 5315's page not found.
+ERROR:root:Movie id 5316's page not found.
+ERROR:root:Movie id 5317's page not found.
+ERROR:root:Movie id 5318's page not found.
+ERROR:root:Movie id 5319's page not found.
+ERROR:root:Movie id 5320's page not found.
+ERROR:root:Movie id 5321's page not found.
+ERROR:root:Movie id 5322's page not found.
+ERROR:root:Movie id 5323's page not found.
+ERROR:root:Movie id 5324's page not found.
+ERROR:root:Movie id 5325's page not found.
+ERROR:root:Movie id 5326's page not found.
+ERROR:root:Movie id 5327's page not found.
+ERROR:root:Movie id 5328's page not found.
+ERROR:root:Movie id 5329's page not found.
+ERROR:root:Movie id 5330's page not found.
+ERROR:root:Movie id 5331's page not found.
+ERROR:root:Movie id 5332's page not found.
+ERROR:root:Movie id 5333's page not found.
+ERROR:root:Movie id 5334's page not found.
+ERROR:root:Movie id 5335's page not found.
+ERROR:root:Movie id 5336's page not found.
+ERROR:root:Movie id 5337's page not found.
+ERROR:root:Movie id 5338's page not found.
+ERROR:root:Movie id 5339's page not found.
+ERROR:root:Movie id 5340's page not found.
+ERROR:root:Movie id 5341's page not found.
+ERROR:root:Movie id 5342's page not found.
+ERROR:root:Movie id 5343's page not found.
+ERROR:root:Movie id 5344's page not found.
+ERROR:root:Movie id 5345's page not found.
+ERROR:root:Movie id 5346's page not found.
+ERROR:root:Movie id 5347's page not found.
+ERROR:root:Movie id 5348's page not found.
+ERROR:root:Movie id 5349's page not found.
+ERROR:root:Movie id 5350's page not found.
+ERROR:root:Movie id 5351's page not found.
+ERROR:root:Movie id 5352's page not found.
+ERROR:root:Movie id 5353's page not found.
+ERROR:root:Movie id 5354's page not found.
+ERROR:root:Movie id 5355's page not found.
+ERROR:root:Movie id 5356's page not found.
+ERROR:root:Movie id 5357's page not found.
+ERROR:root:Movie id 5358's page not found.
+ERROR:root:Movie id 5359's page not found.
+ERROR:root:Movie id 5360's page not found.
+ERROR:root:Movie id 5361's page not found.
+ERROR:root:Movie id 5362's page not found.
+ERROR:root:Movie id 5363's page not found.
+ERROR:root:Movie id 5364's page not found.
+ERROR:root:Movie id 5365's page not found.
+ERROR:root:Movie id 5366's page not found.
+ERROR:root:Movie id 5367's page not found.
+ERROR:root:Movie id 5368's page not found.
+ERROR:root:Movie id 5369's page not found.
+ERROR:root:Movie id 5370's page not found.
+ERROR:root:Movie id 5371's page not found.
+ERROR:root:Movie id 5372's page not found.
+ERROR:root:Movie id 5373's page not found.
+ERROR:root:Movie id 5374's page not found.
+ERROR:root:Movie id 5375's page not found.
+ERROR:root:Movie id 5376's page not found.
+ERROR:root:Movie id 5377's page not found.
+ERROR:root:Movie id 5378's page not found.
+ERROR:root:Movie id 5379's page not found.
+ERROR:root:Movie id 5380's page not found.
+ERROR:root:Movie id 5381's page not found.
+ERROR:root:Movie id 5382's page not found.
+ERROR:root:Movie id 5383's page not found.
+ERROR:root:Movie id 5384's page not found.
+ERROR:root:Movie id 5385's page not found.
+ERROR:root:Movie id 5386's page not found.
+ERROR:root:Movie id 5387's page not found.
+ERROR:root:Movie id 5388's page not found.
+ERROR:root:Movie id 5389's page not found.
+ERROR:root:Movie id 5390's page not found.
+ERROR:root:Movie id 5391's page not found.
+ERROR:root:Movie id 5392's page not found.
+ERROR:root:Movie id 5393's page not found.
+ERROR:root:Movie id 5394's page not found.
+ERROR:root:Movie id 5395's page not found.
+ERROR:root:Movie id 5396's page not found.
+ERROR:root:Movie id 5397's page not found.
+ERROR:root:Movie id 5398's page not found.
+ERROR:root:Movie id 5399's page not found.
+ERROR:root:Movie id 5400's page not found.
+ERROR:root:Movie id 5401's page not found.
+ERROR:root:Movie id 5402's page not found.
+ERROR:root:Movie id 5403's page not found.
+ERROR:root:Movie id 5404's page not found.
+ERROR:root:Movie id 5405's page not found.
+ERROR:root:Movie id 5406's page not found.
+ERROR:root:Movie id 5407's page not found.
+ERROR:root:Movie id 5408's page not found.
+ERROR:root:Movie id 5409's page not found.
+ERROR:root:Movie id 5410's page not found.
+ERROR:root:Movie id 5411's page not found.
+ERROR:root:Movie id 5412's page not found.
+ERROR:root:Movie id 5413's page not found.
+ERROR:root:Movie id 5414's page not found.
+ERROR:root:Movie id 5415's page not found.
+ERROR:root:Movie id 5416's page not found.
+ERROR:root:Movie id 5417's page not found.
+ERROR:root:Movie id 5418's page not found.
+ERROR:root:Movie id 5419's page not found.
+ERROR:root:Movie id 5420's page not found.
+ERROR:root:Movie id 5421's page not found.
+ERROR:root:Movie id 5422's page not found.
+ERROR:root:Movie id 5423's page not found.
+ERROR:root:Movie id 5424's page not found.
+ERROR:root:Movie id 5425's page not found.
+ERROR:root:Movie id 5426's page not found.
+ERROR:root:Movie id 5427's page not found.
+ERROR:root:Movie id 5428's page not found.
+ERROR:root:Movie id 5429's page not found.
+ERROR:root:Movie id 5430's page not found.
+ERROR:root:Movie id 5431's page not found.
+ERROR:root:Movie id 5432's page not found.
+ERROR:root:Movie id 5433's page not found.
+ERROR:root:Movie id 5434's page not found.
+ERROR:root:Movie id 5435's page not found.
+ERROR:root:Movie id 5436's page not found.
+ERROR:root:Movie id 5437's page not found.
+ERROR:root:Movie id 5438's page not found.
+ERROR:root:Movie id 5439's page not found.
+ERROR:root:Movie id 5440's page not found.
+ERROR:root:Movie id 5441's page not found.
+ERROR:root:Movie id 5442's page not found.
+ERROR:root:Movie id 5443's page not found.
+ERROR:root:Movie id 5444's page not found.
+ERROR:root:Movie id 5445's page not found.
+ERROR:root:Movie id 5446's page not found.
+ERROR:root:Movie id 5447's page not found.
+ERROR:root:Movie id 5448's page not found.
+ERROR:root:Movie id 5449's page not found.
+ERROR:root:Movie id 5450's page not found.
+ERROR:root:Movie id 5451's page not found.
+ERROR:root:Movie id 5452's page not found.
+ERROR:root:Movie id 5453's page not found.
+ERROR:root:Movie id 5454's page not found.
+ERROR:root:Movie id 5455's page not found.
+ERROR:root:Movie id 5456's page not found.
+ERROR:root:Movie id 5457's page not found.
+ERROR:root:Movie id 5458's page not found.
+ERROR:root:Movie id 5459's page not found.
+ERROR:root:Movie id 5460's page not found.
+ERROR:root:Movie id 5461's page not found.
+ERROR:root:Movie id 5462's page not found.
+ERROR:root:Movie id 5463's page not found.
+ERROR:root:Movie id 5464's page not found.
+ERROR:root:Movie id 5465's page not found.
+ERROR:root:Movie id 5466's page not found.
+ERROR:root:Movie id 5467's page not found.
+ERROR:root:Movie id 5468's page not found.
+ERROR:root:Movie id 5469's page not found.
+ERROR:root:Movie id 5470's page not found.
+ERROR:root:Movie id 5471's page not found.
+ERROR:root:Movie id 5472's page not found.
+ERROR:root:Movie id 5473's page not found.
+ERROR:root:Movie id 5474's page not found.
+ERROR:root:Movie id 5475's page not found.
+ERROR:root:Movie id 5476's page not found.
+ERROR:root:Movie id 5477's page not found.
+ERROR:root:Movie id 5478's page not found.
+ERROR:root:Movie id 5479's page not found.
+ERROR:root:Movie id 5480's page not found.
+ERROR:root:Movie id 5481's page not found.
+ERROR:root:Movie id 5482's page not found.
+ERROR:root:Movie id 5483's page not found.
+ERROR:root:Movie id 5484's page not found.
+ERROR:root:Movie id 5485's page not found.
+ERROR:root:Movie id 5486's page not found.
+ERROR:root:Movie id 5487's page not found.
+ERROR:root:Movie id 5488's page not found.
+ERROR:root:Movie id 5489's page not found.
+ERROR:root:Movie id 5490's page not found.
+ERROR:root:Movie id 5491's page not found.
+ERROR:root:Movie id 5492's page not found.
+ERROR:root:Movie id 5493's page not found.
+ERROR:root:Movie id 5494's page not found.
+ERROR:root:Movie id 5495's page not found.
+ERROR:root:Movie id 5496's page not found.
+ERROR:root:Movie id 5497's page not found.
+ERROR:root:Movie id 5498's page not found.
+ERROR:root:Movie id 5499's page not found.
+ERROR:root:Movie id 5500's page not found.
+ERROR:root:Movie id 5501's page not found.
+ERROR:root:Movie id 5502's page not found.
+ERROR:root:Movie id 5503's page not found.
+ERROR:root:Movie id 5504's page not found.
+ERROR:root:Movie id 5505's page not found.
+ERROR:root:Movie id 5506's page not found.
+ERROR:root:Movie id 5507's page not found.
+ERROR:root:Movie id 5508's page not found.
+ERROR:root:Movie id 5509's page not found.
+ERROR:root:Movie id 5510's page not found.
+ERROR:root:Movie id 5511's page not found.
+ERROR:root:Movie id 5512's page not found.
+ERROR:root:Movie id 5513's page not found.
+ERROR:root:Movie id 5514's page not found.
+ERROR:root:Movie id 5515's page not found.
+ERROR:root:Movie id 5516's page not found.
+ERROR:root:Movie id 5517's page not found.
+ERROR:root:Movie id 5518's page not found.
+ERROR:root:Movie id 5519's page not found.
+ERROR:root:Movie id 5520's page not found.
+ERROR:root:Movie id 5521's page not found.
+ERROR:root:Movie id 5522's page not found.
+ERROR:root:Movie id 5523's page not found.
+ERROR:root:Movie id 5524's page not found.
+ERROR:root:Movie id 5525's page not found.
+ERROR:root:Movie id: 5550
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5551
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5559
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5560
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5826
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5827
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5828
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5829
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5830
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5831
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5832
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5833
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5834
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5835
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5836
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5837
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5838
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5839
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5840
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5841
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5842
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5843
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5844
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5845
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5846
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5847
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5848
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5849
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5850
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5851
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5852
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5853
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5854
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5855
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5856
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5857
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5858
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5859
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5860
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5861
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5862
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5863
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5864
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5865
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5866
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5867
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5868
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5869
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5870
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5871
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5872
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5873
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5874
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5875
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5876
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5877
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5878
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5879
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5880
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5881
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5882
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5883
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5884
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5885
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5886
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5887
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5888
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5889
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5890
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5891
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5892
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5893
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5894
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5895
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5896
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5897
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5898
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5900
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5901
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5902
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5903
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5904
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5905
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5906
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5907
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5908
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5909
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5910
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5911
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5912
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5913
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5914
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5915
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5916
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5917
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5918
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5919
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5920
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5921
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5922
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5923
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5924
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5925
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5926
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5927
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5928
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5929
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5930
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5931
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5932
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5933
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5934
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id 5935's page not found.
+ERROR:root:Movie id: 5936
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5937
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5938
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5939
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5940
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5941
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5942
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5943
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5944
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5945
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5946
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5947
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5948
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5949
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5950
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5951
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5952
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5953
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5954
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5955
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5956
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5957
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5958
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5959
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5960
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5961
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5962
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5963
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5964
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5965
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5966
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5967
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5968
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5969
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5970
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5971
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5972
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5973
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5974
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5975
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5976
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5977
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5978
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5979
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5980
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5981
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5982
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5983
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5984
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5985
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5986
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5987
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5988
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5989
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5990
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5991
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5992
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5993
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5994
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5995
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5996
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5997
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5998
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 5999
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6000
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6001
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6002
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6003
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6004
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6005
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6006
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6007
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6008
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6009
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6010
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6011
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6012
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6013
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6014
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6015
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6016
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6017
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6018
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6019
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6020
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6021
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6022
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6023
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6024
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6025
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6026
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6027
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6028
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6029
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6030
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6031
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6032
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6033
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6034
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6035
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6036
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6037
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6038
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6039
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6040
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6041
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6042
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6043
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6044
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6045
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6046
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6047
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6048
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6049
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6050
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6051
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6052
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6053
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6054
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6055
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6056
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6057
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6058
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6059
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6060
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6061
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6062
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6063
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6064
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6065
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6066
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6067
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6068
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6069
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6070
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6071
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6072
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6073
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6074
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6075
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6076
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6077
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6078
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6079
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6080
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6081
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6082
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6083
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6084
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6085
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6086
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6087
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6088
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range
+ERROR:root:Movie id: 6090
+Traceback (most recent call last):
+  File "/tmp/ipykernel_8238/3308750562.py", line 20, in <module>
+    'total_nett_gross' : to_int(soup.find(href='net_box_office.php?fm=1').parent.contents[4]),
+IndexError: list index out of range

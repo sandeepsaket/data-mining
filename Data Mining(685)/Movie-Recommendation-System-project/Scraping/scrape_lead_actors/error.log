@@ -1,0 +1,667 @@
+ERROR:root:IMDb id: tt6470646
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt7688918
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt7243744
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4346546
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt12576274
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8458776
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt6278732
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt1027813
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3311236
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt11369288
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3852204
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8011258
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt10623250
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4329938
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt10133440
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8823390
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8396326
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt9648672
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fb0aa1b4940>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.imdb.com', port=443): Max retries exceeded with url: /title/tt9648672/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb0aa1b4940>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 4, in <module>
+    page = requests.get(url.format(imdb_id))
+  File "/usr/lib/python3.9/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.imdb.com', port=443): Max retries exceeded with url: /title/tt9648672/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb0aa1b4940>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:root:IMDb id: tt3728220
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4280464
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt9700838
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt1921071
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3635436
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8333390
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt9900050
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4280542
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt5226638
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt10916104
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt2728294
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt10738834
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt9574388
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt6445398
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt9733616
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt13406494
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt6149662
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8333386
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8090778
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4256244
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt5931678
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4897278
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4879066
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt2660606
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt2660538
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt6272856
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt0195002
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt10026190
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8143896
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt2061850
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt1074201
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4879116
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt1806784
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt1633171
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8028076
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt12982712
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3702056
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt6950450
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt6437166
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3855406
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt11384220
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt7881520
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8458202
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4839000
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3916566
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt7743428
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8430866
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3851764
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8484632
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4332830
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4004786
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt1056465
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4556058
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8800086
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3816394
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt0495245
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4329724
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt2497692
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt10323662
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt2728384
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4332476
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt13705314
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt5216794
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt12567292
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8333954
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt9537070
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3713612
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3743590
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4473564
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt7649558
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4330072
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4882664
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt7624400
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt5331186
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt9648624
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt7743444
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt2739566
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3019098
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt10635372
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt6545212
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4276532
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt6126376
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3920610
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt2668580
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt5876392
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8316280
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt11911664
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt5572908
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4200426
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt7753094
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt8333430
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt2660668
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt0489028
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4882728
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt3974914
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt0466965
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt10623274
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4882582
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt5342784
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4882534
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt5658920
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt6851664
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt11519590
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt9144702
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4884618
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
+ERROR:root:IMDb id: tt4276566
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7548/387375394.py", line 6, in <module>
+    actors_a = soup.find(href=f'/title/{imdb_id}/fullcredits/cast?ref_=tt_ov_st_sm').parent.div.ul.find_all('a')
+AttributeError: 'NoneType' object has no attribute 'parent'
